@@ -1,0 +1,118 @@
+
+:root {
+    --blue: #366cac;
+    --white: #ffffff;
+    --red: #e4222b;
+    --pewter: #fafafa;
+    --purple: #5b3c82;
+    --orange: #f5a623;
+    --grey: #434343;
+    --black: #191414;
+  }
+
+  html{
+      height: 100vh;
+      width: 100vw;
+  }
+
+  body{
+      font-family:'Arial', Helvetica, sans-serif;
+      background-color: var(--pewter);
+  }
+
+  a{
+      color: var(--black);
+      cursor: pointer;
+  }
+
+  a:hover{
+      color: var(--blue);
+  }
+
+  /* text-color */
+  .text-black{
+      color: var(--black);
+  }
+  
+  .text-white{
+      color: var(--white);
+  }
+  
+  .text-red{
+      color: var(--red);
+  }
+
+  /* background-color */
+  .bg-blue{
+      background-color: var(--blue);
+  }
+
+  /* btn */
+  .btn-outline-red{
+      border: 1px solid var(--red);
+      color: var(--red);
+      background-color: var(--white);
+  }
+
+  /* font-weight */
+  .font-weight-300{
+      font-weight: 300;
+  }
+  
+  .font-weight-500{
+      font-weight: 500;
+  }
+ 
+  .font-weight-700{
+      font-weight: 700;
+  }
+
+  .bold{
+      font-weight: bold;
+  }
+
+  /* font-size */
+  text-sm{
+      font-size: 12;
+  }
+
+  text-md{
+      font-size: 16;
+  }
+  
+  text-lg{
+      font-size: 22;
+  }
+  
+  text-xl{
+      font-size: 24;
+  }
+
+  /* component styles */
+  .deliver-icon{
+      font-size: 12px;
+  }
+  
+  .deliver-text{
+      font-size: 14px;
+      letter-spacing: 0.6px;
+      font-weight: 500;
+  }
+
+  .caret-down-icon{
+    font-size: 12px;
+    color: var(--blue);
+  }
+
+  .top-nav{
+      background-color: var(--white);
+  }
+
+  .top-nav-icons{
+    font-size: 18px;
+    color: #a9a9a9;
+  }
+
+  .top-nav-icons:hover{
+      color: var(--blue);
+  }
