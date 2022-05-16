@@ -16,8 +16,11 @@
   }
 
   body{
+      height: 100vh;
+      width: 100vw;
       font-family:'Arial', Helvetica, sans-serif;
       background-color: var(--pewter);
+      overflow-x: hidden;
   }
 
   a{
@@ -32,6 +35,10 @@
   /* text-color */
   .text-black{
       color: var(--black);
+  }
+
+  .text-grey{
+      color: var(--grey);
   }
   
   .text-white{
@@ -119,4 +126,24 @@
 
   .search-input{
       border: 1px solid var(--blue);
+  }
+
+  .menu-item{
+      font-size: 14px;
+  }
+
+  .menu-item-special{
+      border-bottom: 4px solid var(--red);
+  }
+
+  .read-more-btn{
+      border-radius: 0;
+  }
+
+  .selected-product{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+
+  .advert-left, .advert-right{
+      background-color: var(--purple);
   }
