@@ -116,3 +116,7 @@
   .top-nav-icons:hover{
       color: var(--blue);
   }
+
+  .search-input{
+      border: 1px solid var(--blue);
+  }
