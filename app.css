@@ -147,3 +147,17 @@
   .advert-left, .advert-right{
       background-color: var(--purple);
   }
+
+  .footer{
+      background-color: var(--blue);
+  }
+
+  .newsletter-input::placeholder { 
+    color: white;
+ }
+
+  @media screen and (min-width: 962px) {
+    .advert-right {
+      padding-top: 4vh;
+    }
+  }
